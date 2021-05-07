@@ -1,2 +1,1 @@
-# Elk Grove Bike Park
-Coming Soon!
+# Coming Soon!
