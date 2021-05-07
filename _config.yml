@@ -1,0 +1,12 @@
+# Site settings
+title: Elk Grove Bike Park
+email: elkgrovebp@gmail.com
+description: > Elk Grove Bike Park dirt jumps and pump track # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "www.elkgrovebikepark.com" # the base hostname & protocol for your site
+
+twitter_username:
+github_username: elkgrovebikepark
+
+# Build settings
+markdown: kramdown
