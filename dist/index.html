@@ -54,6 +54,33 @@
                     <h2 class="section-heading text-uppercase"><a href="https://www.google.com/maps/place/9950+Elk+Grove+Florin+Rd,+Elk+Grove,+CA+95624/@38.3926309,-121.3762987,17z/data=!3m1!4b1!4m5!3m4!1s0x809ac75ecd8987f9:0x9544ca2caa9131a0!8m2!3d38.3926267!4d-121.37411"> 9950 Elk Grove Florin Rd, Elk Grove, CA 95624</a> </h2>
                 </div>
         </section>
+   <!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img_nature.jpg" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
           <!-- Our History-->
         <section class="page-section" id="history">
             <div class="container">
