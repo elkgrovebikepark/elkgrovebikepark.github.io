@@ -52,8 +52,10 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).on('scroll', navbarCollapse);
-    
-    // Carousel start
+
+})(jQuery); // End of use strict
+
+   // Carousel start
     var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -82,5 +84,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 };
-
-})(jQuery); // End of use strict
