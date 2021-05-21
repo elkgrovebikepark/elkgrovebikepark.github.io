@@ -59,21 +59,23 @@
         <section class="page-section" id="photos">
 <!-- Slideshow container -->
            
-<div class="scrollpane">
+
+
+<section class="carousel" aria-label="Gallery">
+    <div class="scrollpane">
   <div class="scrollpane_items">
-    <img class="scrollpane_item" alt="..." src="1.jpg">
-    <img class="scrollpane_item" alt="..." src="2.jpg">
-    <img class="scrollpane_item" alt="..." src="3.jpg">
+    <img class="scrollpane_item" alt="..." src="assets/img/portfolio/01-thumbnail.jpg">
+    <img class="scrollpane_item" alt="..." src="assets/img/portfolio/02-thumbnail.jpg">
+    <img class="scrollpane_item" alt="..." src="assets/img/portfolio/03-thumbnail.jpg">
     <img class="scrollpane_item" alt="..." src="4.jpg">
   </div>
 </div>
-            
-<section class="carousel" aria-label="Gallery">
+
   <ol class="carousel__viewport">
     <li id="carousel__slide1"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper">       
+      <div class="carousel__snapper">
         <a href="#carousel__slide4"
            class="carousel__prev">Go to last slide</a>
         <a href="#carousel__slide2"
@@ -83,11 +85,11 @@
     <li id="carousel__slide2"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper">
-         <img class="carousel__prev" src="assets/img/portfolio/01-thumbnail.jpg" alt="..." />
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
       <a href="#carousel__slide3"
          class="carousel__next">Go to next slide</a>
-          </div>
     </li>
     <li id="carousel__slide3"
         tabindex="0"
@@ -101,9 +103,11 @@
     <li id="carousel__slide4"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper">
-<img class="carousel__next" src="assets/img/portfolio/01-thumbnail.jpg" alt="..." />
-        </div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
     </li>
   </ol>
   <aside class="carousel__navigation">
@@ -126,7 +130,8 @@
       </li>
     </ol>
   </aside>
-</section>
+</section>            
+
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
