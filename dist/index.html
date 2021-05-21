@@ -59,6 +59,15 @@
         <section class="page-section" id="photos">
 <!-- Slideshow container -->
            
+<div class="scrollpane">
+  <div class="scrollpane_items">
+    <img class="scrollpane_item" alt="..." src="1.jpg">
+    <img class="scrollpane_item" alt="..." src="2.jpg">
+    <img class="scrollpane_item" alt="..." src="3.jpg">
+    <img class="scrollpane_item" alt="..." src="4.jpg">
+  </div>
+</div>
+            
 <section class="carousel" aria-label="Gallery">
   <ol class="carousel__viewport">
     <li id="carousel__slide1"
@@ -74,10 +83,11 @@
     <li id="carousel__slide2"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper"></div>
+      <div class="carousel__snapper">
          <img class="carousel__prev" src="assets/img/portfolio/01-thumbnail.jpg" alt="..." />
       <a href="#carousel__slide3"
          class="carousel__next">Go to next slide</a>
+          </div>
     </li>
     <li id="carousel__slide3"
         tabindex="0"
@@ -91,9 +101,9 @@
     <li id="carousel__slide4"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper"></div>
-<img class="carousel__prev" src="assets/img/portfolio/03-thumbnail.jpg" alt="..." />
+      <div class="carousel__snapper">
 <img class="carousel__next" src="assets/img/portfolio/01-thumbnail.jpg" alt="..." />
+        </div>
     </li>
   </ol>
   <aside class="carousel__navigation">
