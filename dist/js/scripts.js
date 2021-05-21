@@ -4,9 +4,6 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
 
-(function ($) {
-    "use strict"; // Start of use strict
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -82,5 +79,3 @@ function showSlides(n) {
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).on('scroll', navbarCollapse);
-
-})(jQuery); // End of use strict
