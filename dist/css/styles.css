@@ -10238,7 +10238,7 @@ EDIT ON
 
 body {
   max-width: 100%;
-  height: auto;
+  height: "500";
   margin: 0 auto;
   padding: 0 1.25rem;
   font-family: 'Lato', sans-serif;
