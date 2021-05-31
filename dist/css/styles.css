@@ -14,7 +14,7 @@
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;f
+  --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #fed136;
@@ -10188,7 +10188,6 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
