@@ -10456,7 +10456,6 @@ header.masthead .masthead-heading {
 .img-brand {
   height: 2.75rem;
 }
-
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
@@ -10468,6 +10467,8 @@ section#contact .section-heading {
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
+  color: #212529;
+  opacity: .5;
 }
 section#contact form#contactForm .form-group input,
 section#contact form#contactForm .form-group textarea {
@@ -10493,22 +10494,22 @@ section#contact form#contactForm .form-control:focus {
 section#contact form#contactForm ::-webkit-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #ced4da;
+  color: #212529;
 }
 section#contact form#contactForm :-moz-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #ced4da;
+  color: #212529;
 }
 section#contact form#contactForm ::-moz-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #ced4da;
+  color: #212529;
 }
 section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #ced4da;
+  color: #212529;
 }
 
 .footer {
