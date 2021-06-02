@@ -52,9 +52,5 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).on('scroll', navbarCollapse);
-  
-    $(".identifyingClass").click(function () {
-            var my_id_value = $(this).data('id');
-            $(".modal-body #hiddenValue").val(my_id_value);
 
 })(jQuery); // End of use strict
