@@ -10188,6 +10188,12 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+#about .portfolio-item {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
 #photos .portfolio-item {
   max-width: 100%;
   margin-left: auto;
