@@ -10189,7 +10189,7 @@ header.masthead .masthead-heading {
   }
 }
 #portfolio .portfolio-item {
-  max-width: 85%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
