@@ -10275,22 +10275,15 @@ header.masthead .masthead-heading {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
-  background-color: #fff;
-  background-image: url("../assets/img/sweep.jpg");
-  opacity: .5;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
 }
 }
 .portfolio-modal .modal-content h2 {
-  color: white
+  color: white;
   font-size: 3rem;
   line-height: 3rem;
 }
 .portfolio-modal .modal-content h3 {
-  color: white
+  color: white;
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
