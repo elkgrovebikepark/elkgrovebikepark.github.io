@@ -160,9 +160,9 @@ body {
   </div>
   <div class="column">
     <img src="assets/img/ZacharyHeath/EGBP1.jpg" style="width:100%" data-target="#carouselExample" data-slide-to="7">
-    <img src="assets/img/AshleyBox/AB_P1.jpg" alt="Photo: Ashley Box" style="width:100%">
-    <img src="assets/img/ZacharyHeath/bday12.jpg" alt="Photo: Zachary Heath" style="width:100%">
-    <img src="assets/img/ZacharyHeath/bday5.jpg" alt="Photo: Zachary Heath" style="width:100%">
+    <img src="assets/img/AshleyBox/AB_P1.jpg" alt="Photo: Ashley Box" style="width:100%" data-target="#carouselExample" data-slide-to="0">
+    <img src="assets/img/ZacharyHeath/bday12.jpg" alt="Photo: Zachary Heath" style="width:100%" data-target="#carouselExample" data-slide-to="1">
+    <img src="assets/img/ZacharyHeath/bday5.jpg" alt="Photo: Zachary Heath" style="width:100%" data-target="#carouselExample" data-slide-to="2">
     <img src="assets/img/AshleyBox/AB10.jpg" alt="Photo: Ashley Box" style="width:100%">
     <img src="assets/img/ZacharyHeath/bday59.jpg" alt="Photo: Zachary Heath" style="width:100%">
     <img src="assets/img/AshleyBox/AB6.jpg" alt="Photo: Ashley Box" style="width:100%">
@@ -190,47 +190,62 @@ body {
   </div>
 </div>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption">Photo: Ashley Box credit</div>
-</div>
-    <!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img001">
-  <div id="caption">Photo: Ashley Box credit</div>
+    <!-- Modal markup: https://getbootstrap.com/docs/4.4/components/modal/ -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      <!-- Carousel markup goes here -->
+          
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
     
+      <!-- Carousel markup goes here -->
     
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
+   <div class="gallery">
+    <img src="assets/img/AshleyBox/AB_P3_cover.jpg" onclick="lightbox(0)" style="width:auto; height:140px;" />
+    <img src="assets/img/ZacharyHeath/bday63.jpg" onclick="lightbox(1)" style="width:auto; height:140px;" /><br />
+    <img src="assets/img/AshleyBox/AB20.jpg" onclick="lightbox(2)" />
+    <img src="thumbnail_4.jpg" onclick="lightbox(3)" />
+    <img src="thumbnail_5.jpg" onclick="lightbox(4)" />
+</div>
+    
+    <div style="display:none;">
+    <div id="ninja-slider">...(omitted for brevity)...</div>
+</div>
+    <script>
+    function lightbox(idx) {
+        //Show the slider wrapper
+        var ninjaSldr = document.getElementById("ninja-slider");
+        ninjaSldr.parentNode.style.display = "block";
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+        //Then init the slider
+        //Note: The { initSliderByCallingInitFunc: true } option in the 
+        // ninja-slider.js tells the page not to initiate the slider
+        // unless the following init(idx) function is called.
+        nslider.init(idx);
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+        //Then mimic clicking the fullscreen button to popup the modal
+        var fsBtn = document.getElementById("fsBtn");
+        fsBtn.click();
+    }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
+    function fsIconClick(isFullscreen, ninjaSldr) {
+        //Note: fsIconClick is the default event handler of the fullscreen button
+        if (isFullscreen) {
+            ninjaSldr.parentNode.style.display = "none";
+        }
+    }
 </script>
 
 </body>
