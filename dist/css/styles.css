@@ -10276,13 +10276,6 @@ header.masthead .masthead-heading {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/sweep.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-  text-align: center;
 }
 .portfolio-modal modal-content:overlay {
     z-index: 1;
@@ -10317,6 +10310,9 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 2rem;
+  opacity: 0.5;
+  position: relative;
+  text-align: center;
 }
 .portfolio-modal .close-modal {
   position: absolute;
