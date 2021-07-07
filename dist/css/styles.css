@@ -10291,6 +10291,13 @@ header.masthead .masthead-heading {
   color: white;
   font-size: 3rem;
   line-height: 3rem;
+  background-image: url("../assets/img/sweep.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
 }
 .portfolio-modal .modal-content h3 {
   color: white;
