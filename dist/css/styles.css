@@ -10286,18 +10286,18 @@ header.masthead .masthead-heading {
     top: 0px;
     left: 0px;
     background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
-}
-.portfolio-modal .modal-content h2 {
-  color: white;
-  font-size: 3rem;
-  line-height: 3rem;
-  background-image: url("../assets/img/sweep.jpg");
+    background-image: url("../assets/img/sweep.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   position: relative;
   text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  color: white;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 .portfolio-modal .modal-content h3 {
   color: white;
