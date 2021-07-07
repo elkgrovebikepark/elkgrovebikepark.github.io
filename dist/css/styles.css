@@ -10276,6 +10276,12 @@ header.masthead .masthead-heading {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
+  background-image: url("../assets/img/sweep.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
 }
 .portfolio-modal modal-content:overlay {
     z-index: 1;
@@ -10286,13 +10292,6 @@ header.masthead .masthead-heading {
     top: 0px;
     left: 0px;
     background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
-    background-image: url("../assets/img/sweep.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-  text-align: center;
 }
 .portfolio-modal .modal-content h2 {
   color: white;
