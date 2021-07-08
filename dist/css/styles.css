@@ -10196,6 +10196,14 @@ header.masthead .masthead-heading {
   text-justify: inter-word;
 }
 }
+section#rules {
+  background-color: #212529;
+  background-image: url("../assets/img/AshleyBox/AB_P1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+}
 #photos .portfolio-item {
   max-width: 100%;
   margin-left: auto;
