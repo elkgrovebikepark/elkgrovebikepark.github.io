@@ -10197,10 +10197,14 @@ header.masthead .masthead-heading {
 }
 }
 section#rules {
-  background-color: #212529;
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
   background-image: url("../assets/img/AshleyBox/AB_P1.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: scroll;
+  background-position: center center;
   background-size: cover;
 }
 }
