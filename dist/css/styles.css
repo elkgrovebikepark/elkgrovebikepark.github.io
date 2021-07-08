@@ -10196,6 +10196,7 @@ section#about {
   text-justify: inter-word;
 }
   section#rules {
+  text-align: center;
   background-color: #212529;
   background-image: url("../assets/img/AshleyBox/AB_P1.png");
   background-repeat: no-repeat;
