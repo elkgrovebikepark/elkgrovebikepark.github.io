@@ -10188,25 +10188,19 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-.about {
+section#about {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
   text-justify: inter-word;
 }
-}
-.rules {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
+  section#rules {
+  background-color: #212529;
   background-image: url("../assets/img/AshleyBox/AB_P1.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-}
 }
 #photos .portfolio-item {
   max-width: 100%;
