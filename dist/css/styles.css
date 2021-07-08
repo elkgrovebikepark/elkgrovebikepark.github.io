@@ -10188,7 +10188,7 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-#about .portfolio-item {
+.about {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -10196,7 +10196,7 @@ header.masthead .masthead-heading {
   text-justify: inter-word;
 }
 }
-section#rules {
+.rules {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
