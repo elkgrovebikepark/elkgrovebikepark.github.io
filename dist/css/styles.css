@@ -1,4 +1,4 @@
-@charset "UTF-8";
+e@charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v6.0.5 (https://startbootstrap.com/theme/agency)
 * Copyright 2013-2021 Start Bootstrap
@@ -10198,7 +10198,7 @@ header.masthead .masthead-heading {
 }
 section#rules {
   background-color: #212529;
-  background-image: url("../assets/img/AshleyBox/AB_P1.jpg");
+  background-image: url("../assets/img/AshleyBox/AB_P1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
