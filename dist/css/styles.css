@@ -10210,7 +10210,10 @@ section#about {
   background-size: cover;
 }
 
-  section#photo1 {
+#photo1 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/ZacharyHeath/ZHcover.png");
