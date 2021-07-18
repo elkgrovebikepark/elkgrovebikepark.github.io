@@ -10291,11 +10291,14 @@ section#about {
   padding: 1.5px;
 }
   section#rules {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/AshleyBox/AB_P1.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: scroll;
+  background-position: center center;
   background-size: cover;
 }
 
