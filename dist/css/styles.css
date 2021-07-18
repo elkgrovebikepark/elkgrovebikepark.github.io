@@ -10189,99 +10189,6 @@ header.masthead .masthead-heading {
   }
 }
 
-section#test {
-  box-sizing: border-box;
-}
-
-#test. body {
-  margin: 0;
-  font-family: Arial;
-}
-
-#test .header {
-  text-align: center;
-  padding: 32px;
-}
-
-#test .row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-#test .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-#test .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
- /* Here you provide a best practice's "reset", read more about it at the bottom! :) */
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-}
-
-/* You define the style of our previews here, you are using flex to display the images 
-   "responsively". */
-
-.preview {
-  width: 100%;
-}
-
-#test .row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#test .row > .col {
-  padding: 0 8px;
-}
-
-#test .col {
-  float: left;
-  width: 25%;
-}
-    }
-
-
-
-
 section#about {
   max-width: 100%;
   margin-left: auto;
@@ -10291,8 +10198,8 @@ section#about {
   padding: 1.5px;
 }
   section#rules {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/AshleyBox/AB_P1.png");
@@ -10302,12 +10209,15 @@ section#about {
   background-size: cover;
 }
 
-  section#about1 {
+section#about1 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/ZacharyHeath/EGBP1.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: scroll;
+  background-position: center center;
   background-size: cover;
 }
 
