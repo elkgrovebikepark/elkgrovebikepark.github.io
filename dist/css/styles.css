@@ -10194,19 +10194,15 @@ section#about {
   margin-right: auto;
   text-align: justify;
   text-justify: inter-word;
-}
-#about .center {
-  margin: auto;
-  width: 60%;
   padding: 1.5px;
-}
+
   section#rules {
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/AshleyBox/AB_P1.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 95%;
 }
 
 #photo1 {
