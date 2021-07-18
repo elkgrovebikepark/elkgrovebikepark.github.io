@@ -10222,7 +10222,12 @@ section#about1 {
   box-sizing: border-box;
 }
 
-about1 .example1 {
+
+#example1 {
+    box-sizing: border-box;
+}
+
+#example1 .example1 {
   width: 300px;
   padding: 40px;  
   border: 2px solid white;
