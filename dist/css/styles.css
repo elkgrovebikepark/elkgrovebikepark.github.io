@@ -10299,6 +10299,15 @@ section#about {
   background-size: 98%;
 }
 
+  section#about1 {
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/ZacharyHeath/EGBP1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 #photo1 {
   max-width: 100%;
   margin-left: auto;
