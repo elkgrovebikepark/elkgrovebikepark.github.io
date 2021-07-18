@@ -10219,6 +10219,13 @@ section#about1 {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  box-sizing: border-box;
+}
+
+about1 .example1 {
+  width: 300px;
+  padding: 40px;  
+  border: 2px solid white;
 }
 
 #photo1 {
