@@ -10199,8 +10199,8 @@ section#about {
 }
   section#rules {
   padding-top: 20rem;
-  padding-bottom: 10rem;
-  text-align: center;
+  padding-bottom: 20rem;
+  text-align: top;
   color: #fff;
   background-image: url("../assets/img/AshleyBox/AB_P1.png");
   background-repeat: no-repeat;
@@ -10244,6 +10244,19 @@ section#about1 {
   background-position: center;
   background-size: cover;
 }
+
+#photo2 {
+  padding-top: 100rem;
+  padding-bottom: 100rem;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/ZacharyHeath/ZHcover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 
 #photos .portfolio-item {
   max-width: 100%;
