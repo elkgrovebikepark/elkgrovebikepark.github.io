@@ -10199,7 +10199,7 @@ section#about {
   padding: 1.5px;
 }
   section#rules {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding-top: 20rem;
   padding-bottom: 20rem;
   text-align: top;
@@ -10212,6 +10212,7 @@ section#about {
 }
 
 section#about1 {
+  margin-bottom: 1rem;
   padding-top: 30rem;
   padding-bottom: 15rem;
   text-align: center;
@@ -10236,7 +10237,7 @@ section#about1 {
 }
 
 #photo1 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding-top: 20rem;
   padding-bottom: 20rem;
   text-align: center;
