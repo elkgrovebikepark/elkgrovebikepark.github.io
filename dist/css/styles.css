@@ -10190,6 +10190,7 @@ header.masthead .masthead-heading {
 }
 
 section#about {
+  margin-bottom: 3rem;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -10198,6 +10199,7 @@ section#about {
   padding: 1.5px;
 }
   section#rules {
+  margin-bottom: 3rem;
   padding-top: 20rem;
   padding-bottom: 20rem;
   text-align: top;
