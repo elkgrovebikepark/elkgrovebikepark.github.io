@@ -10301,6 +10301,9 @@ section#about1 {
 
 section#grid {
   box-sizing: border-box;
+  margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 #grid .header {
@@ -10329,7 +10332,7 @@ section#grid {
 }
 
 #grid .column img {
-  margin-top: 1rem;
+  margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
