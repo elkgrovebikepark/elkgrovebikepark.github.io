@@ -10329,7 +10329,7 @@ section#grid {
 }
 
 #grid .column img {
-  margin-top: 8px;
+  margin-top: 1rem;
   vertical-align: middle;
   width: 100%;
 }
