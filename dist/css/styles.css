@@ -10271,6 +10271,7 @@ section#about1 {
 
 #photos .portfolio-item {
   max-width: 100%;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
 }
