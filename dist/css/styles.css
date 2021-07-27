@@ -10303,11 +10303,6 @@ section#grid {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
 #grid .header {
   text-align: center;
   padding: 32px;
@@ -10325,7 +10320,7 @@ body {
 }
 
 /* Create four equal columns that sits next to each other */
-#grid.column {
+#grid .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
