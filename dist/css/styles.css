@@ -10232,6 +10232,23 @@ section#about1 {
 }
 
 
+/* Container holding the image and the text */
+testabout .container {
+  position: relative;
+}
+
+/* Bottom right text */
+testabout .text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 #example1 {
     box-sizing: border-box;
 }
