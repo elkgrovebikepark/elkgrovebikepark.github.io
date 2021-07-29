@@ -10231,6 +10231,13 @@ section#about1 {
   box-sizing: border-box;
 }
 
+about1 .p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+about1. h2 span { 
+    background-color: green; 
+}
+
 
 /* Container holding the image and the text */
 testabout .container {
