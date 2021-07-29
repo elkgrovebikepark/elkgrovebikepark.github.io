@@ -10215,6 +10215,17 @@ section#about {
   background-size: cover;
 }
 
+
+#rules .p2 {
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(254, 209, 54, 0.6); 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  
+}
+
 section#about1 {
   margin-bottom: 1rem;
   margin-left: 1rem;
@@ -10233,7 +10244,7 @@ section#about1 {
 
 #about1 .p2 {
   font-family: Arial, Helvetica, sans-serif;
-      background-color: rgba(254, 209, 54, 0.4); 
+      background-color: rgba(254, 209, 54, 0.6); 
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 2rem;
