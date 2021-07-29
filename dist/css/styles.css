@@ -10231,12 +10231,9 @@ section#about1 {
   box-sizing: border-box;
 }
 
-#about1 .p2 {
+#about1 .p2 span {
   font-family: Arial, Helvetica, sans-serif;
       background-color: blue; 
-}
-#about1. p2 span { 
-    background-color: yellow; 
 }
 
 
