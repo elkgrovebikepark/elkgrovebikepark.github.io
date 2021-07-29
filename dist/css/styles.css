@@ -10233,9 +10233,10 @@ section#about1 {
 
 #about1 .p2 {
   font-family: Arial, Helvetica, sans-serif;
+      background-color: blue; 
 }
 #about1. p2 span { 
-    background-color: #fed136; 
+    background-color: yellow; 
 }
 
 
