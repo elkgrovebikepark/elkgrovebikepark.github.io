@@ -10234,6 +10234,10 @@ section#about1 {
 #about1 .p2 {
   font-family: Arial, Helvetica, sans-serif;
       background-color: rgba(254, 209, 54, 0.4); 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   
 }
 
