@@ -10254,6 +10254,11 @@ section#about1 {
   
 }
 
+#about .p3 {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
 
 /* Container holding the image and the text */
 testabout .container {
