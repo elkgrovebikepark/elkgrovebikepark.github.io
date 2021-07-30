@@ -10311,6 +10311,58 @@ testabout .text-block {
 }
 
 
+
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+* {
+  font-size: 16px;
+}
+
+body {
+  background: linear-gradient(#eee, #c9c9c9);
+  background-attachment: fixed;
+}
+
+#photo1 .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 8em 0;
+}
+
+#photo1 .text-box {
+  text-align: left;
+}
+
+#photo1 .hover {
+  position: relative;
+  top: 30%;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+  transition: transform 300ms ease-in-out;
+  transition: 600ms ease-in-out;
+}
+
+#photo1 .text-box h3 {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: #f2f2f2;
+  display: block;
+  padding: 1em;
+}
+
+#photo1 .hover:hover {
+  background: rgba(51,51,51,0.8);
+  transform: scale(1.1, 1.1);
+  border: 2px #eee solid;
+}
+
+
+
+
+
+
 #photo1 .portfolio-item .portfolio-link {
   position: relative;
   display: block;
