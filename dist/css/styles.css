@@ -10255,7 +10255,7 @@ section#about1 {
 }
 
 #about .p3 {
-    position:absolute;
+    position:relative;
     bottom:0;
     right:0;
 }
