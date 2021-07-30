@@ -10301,6 +10301,14 @@ testabout .text-block {
   background-size: cover;
 }
 
+#photo1 .h2 {
+    background-color: rgba(254, 209, 54, 0.9); 
+    filter: drop-shadow(0 0 0.75rem grey);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
 
 #photo1 .portfolio-item .portfolio-link {
