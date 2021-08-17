@@ -2458,6 +2458,11 @@ fieldset:disabled a.btn {
   border-color: #fec503;
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
+.btn-primary:spacing 
+{
+margin-right: 5px;
+margin-bottom: 5px !important;
+}
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
   background-color: #fed136;
